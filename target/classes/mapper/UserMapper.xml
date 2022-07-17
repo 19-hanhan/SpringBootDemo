@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="hanhan.demo.Dao.UserMapper">
+    <resultMap type="hanhan.demo.Entity.User" id="UserMap">
+        <id column="u_id" property="uId"/>
+        <result column="u_username" property="uUsername"/>
+        <result column="u_password" property="uPassword"/>
+        <!-- 一对一关联,select属性是通过namespace引入的card查询 -->
+        <association column="u_idcard" property="uIdCard" javaType="hanhan.demo.Entity.IdCard" select="hanhan.demo.Dao.IdCardMapper.FindByCode"/>
+        <collection column="u_id" property="uBankCard" javaType="java.util.ArrayList" ofType="hanhan.demo.Entity.BankCard" select="hanhan.demo.Dao.BankCardMapper.FindByUserId" fetchType="lazy"/>
+    </resultMap>
+
+    <insert id="AddUser">
+        INSERT user(u_username, u_password) VALUES (#{uUsername}, #{uPassword})
+    </insert>
+
+    <delete id="DeleteUserById">
+        DELETE FROM user WHERE u_id=#{id}
+    </delete>
+
+    <update id="UpdatePwdByUname">
+        UPDATE user SET u_password=#{pwd} WHERE u_username=#{uname}
+    </update>
+
+    <select id="FindAll" resultMap="UserMap">
+        SELECT * FROM user
+    </select>
+
+    <select id="FindById" resultMap="UserMap">
+        SELECT * FROM user WHERE u_id = #{uId}
+    </select>
+
+    <select id="FindByUname" resultType="User">
+        SELECT * FROM user WHERE u_username like '%${uname}%'
+    </select>
+
+<!--    <select id="FindUser" parameterType="User" resultType="User">-->
+<!--        SELECT * FROM user-->
+<!--        <where>-->
+<!--            <if test="uId != null and uId != 0">-->
+<!--                u_id = #{uId}-->
+<!--            </if>-->
+<!--            <if test="uUsername != null">-->
+<!--                AND u_username like '%${uUsername}%'-->
+<!--            </if>-->
+<!--            <if test="uPassword != null">-->
+<!--                AND u_password like '%${uPassword}%'-->
+<!--            </if>-->
+<!--        </where>-->
+<!--    </select>-->
+
+    <select id="FindUser" parameterType="User" resultMap="UserMap">
+        SELECT * FROM user
+        <where>
+            <if test="uId != null and uId != 0">
+                u_id = #{uId}
+            </if>
+            <if test="uUsername != null">
+                AND u_username like '%${uUsername}%'
+            </if>
+            <if test="uPassword != null">
+                AND u_password like '%${uPassword}%'
+            </if>
+        </where>
+    </select>
+
+    <resultMap id="UserResultMap" type="hanhan.demo.Entity.User">
+        <id column="u_id" property="uId"/>
+        <result column="u_username" property="uUsername"/>
+        <result column="u_password" property="uPassword"/>
+        <!-- 一对一关联,select属性是通过namespace引入的card查询 -->
+        <association column="u_idcard" property="uIdCard" javaType="hanhan.demo.Entity.IdCard" select="hanhan.demo.Dao.IdCardMapper.FindByCode"/>
+        <collection column="u_id" property="uBankCard" javaType="java.util.ArrayList" select="hanhan.demo.Dao.BankCardMapper.FindByUserId" fetchType="lazy"/>
+    </resultMap>
+
+    <select id="FindFansById" resultMap="UserResultMap">
+        SELECT *
+    </select>
+</mapper>
+

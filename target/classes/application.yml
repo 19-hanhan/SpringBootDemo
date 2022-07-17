@@ -1,0 +1,4 @@
+spring: # springboot配置
+  profiles:
+    active:
+      - dev

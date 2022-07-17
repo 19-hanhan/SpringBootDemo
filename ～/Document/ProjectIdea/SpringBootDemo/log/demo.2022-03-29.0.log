@@ -1,0 +1,468 @@
+15:35:23.873 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 89511 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+15:35:23.875 [main] INFO  h.demo.SpringBootDemoApplication - No active profile set, falling back to 1 default profile: "default"
+15:35:24.844 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+15:35:24.851 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+15:35:24.851 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:35:24.851 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+15:35:24.958 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:35:24.959 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1042 ms
+15:35:25.574 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+15:35:25.588 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+15:35:25.601 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 2.065 seconds (JVM running for 2.636)
+15:35:40.980 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:35:40.983 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:35:40.986 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+15:35:41.007 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - ======测试日志info级别打印=====
+15:35:41.007 [http-nio-3000-exec-1] ERROR h.demo.Controller.UserController - =====测试日志error级别打印====
+15:35:41.007 [http-nio-3000-exec-1] WARN  h.demo.Controller.UserController - ======测试日志warn级别打印=====
+15:35:41.007 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - ======hanhan的项目库：https://github.com/hanhan
+20:12:34.541 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 95509 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+20:12:34.543 [main] INFO  h.demo.SpringBootDemoApplication - No active profile set, falling back to 1 default profile: "default"
+20:12:35.530 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+20:12:35.534 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+20:12:35.535 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:12:35.535 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+20:12:35.646 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:12:35.646 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1067 ms
+20:12:36.319 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+20:12:36.336 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+20:12:36.346 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 2.187 seconds (JVM running for 3.012)
+20:12:46.951 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:12:46.952 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:12:46.955 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+20:12:46.979 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - ======测试日志info级别打印=====
+20:12:46.981 [http-nio-3000-exec-1] ERROR h.demo.Controller.UserController - =====测试日志error级别打印====
+20:12:46.981 [http-nio-3000-exec-1] WARN  h.demo.Controller.UserController - ======测试日志warn级别打印=====
+20:12:46.981 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - ======hanhan的项目库：https://github.com/hanhan
+20:13:17.115 [http-nio-3000-exec-3] INFO  h.demo.Controller.UserController - =====获取的One服务地址为：null
+20:13:17.120 [http-nio-3000-exec-3] INFO  h.demo.Controller.UserController - =====获取的Two服务地址为：null
+20:13:17.120 [http-nio-3000-exec-3] INFO  h.demo.Controller.UserController - =====获取的Three服务地址为：null
+20:14:37.432 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 95586 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+20:14:37.434 [main] INFO  h.demo.SpringBootDemoApplication - No active profile set, falling back to 1 default profile: "default"
+20:14:38.391 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+20:14:38.398 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+20:14:38.399 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:14:38.399 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+20:14:38.506 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:14:38.506 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1032 ms
+20:14:39.137 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+20:14:39.151 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+20:14:39.166 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 2.087 seconds (JVM running for 2.596)
+20:15:04.499 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:15:04.501 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:15:04.506 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+20:15:04.536 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - =====获取的One服务地址为：http://localhost:3001
+20:15:04.537 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - =====获取的Two服务地址为：http://localhost:3002
+20:15:04.537 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - =====获取的Three服务地址为：http://localhost:3003
+20:20:27.390 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 95758 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+20:20:27.392 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "-dev"
+20:20:28.357 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+20:20:28.362 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+20:20:28.362 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:20:28.362 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+20:20:28.473 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:20:28.474 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1042 ms
+20:20:28.624 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes/hanhan/demo/Dao/UserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+20:20:28.628 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+20:20:28.647 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+20:20:28.662 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles -dev are currently active).
+
+20:21:03.369 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 7, column 5:
+        -dev
+        ^
+could not find expected ':'
+ in 'reader', line 9, column 1:
+    mybatis:
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:484)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:299)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:247)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:665)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:165)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:214)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:184)
+	at org.yaml.snakeyaml.composer.Composer.composeKeyNode(Composer.java:310)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:301)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:135)
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.getData(OriginTrackedYamlLoader.java:99)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:514)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:198)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:84)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:54)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:36)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:107)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:128)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:86)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:116)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:240)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:227)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:102)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:94)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:102)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:87)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:297)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at hanhan.demo.SpringBootDemoApplication.main(SpringBootDemoApplication.java:10)
+20:21:27.015 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 95791 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+20:21:27.017 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+20:21:28.005 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+20:21:28.012 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+20:21:28.012 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:21:28.012 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+20:21:28.127 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:21:28.128 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1059 ms
+20:21:28.817 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+20:21:28.835 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+20:21:28.854 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 2.387 seconds (JVM running for 2.917)
+20:21:36.047 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:21:36.051 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:21:36.053 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+20:21:36.090 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - ======测试日志info级别打印=====
+20:21:36.091 [http-nio-3000-exec-1] ERROR h.demo.Controller.UserController - =====测试日志error级别打印====
+20:21:36.091 [http-nio-3000-exec-1] WARN  h.demo.Controller.UserController - ======测试日志warn级别打印=====
+20:21:36.091 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - ======hanhan的项目库：https://github.com/hanhan
+20:21:39.989 [http-nio-3000-exec-2] INFO  h.demo.Controller.UserController - ======测试日志info级别打印=====
+20:21:39.991 [http-nio-3000-exec-2] ERROR h.demo.Controller.UserController - =====测试日志error级别打印====
+20:21:39.991 [http-nio-3000-exec-2] WARN  h.demo.Controller.UserController - ======测试日志warn级别打印=====
+20:21:39.991 [http-nio-3000-exec-2] INFO  h.demo.Controller.UserController - ======hanhan的项目库：https://github.com/hanhan
+20:21:50.525 [http-nio-3000-exec-5] INFO  h.demo.Controller.UserController - =====获取的One服务地址为：http://localhost:3001
+20:21:50.527 [http-nio-3000-exec-5] INFO  h.demo.Controller.UserController - =====获取的Two服务地址为：http://localhost:3002
+20:21:50.527 [http-nio-3000-exec-5] INFO  h.demo.Controller.UserController - =====获取的Three服务地址为：http://localhost:3003
+20:24:01.962 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 95862 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+20:24:01.963 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+20:24:02.910 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+20:24:02.915 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+20:24:02.916 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:24:02.916 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+20:24:03.021 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:24:03.021 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1020 ms
+20:24:03.646 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+20:24:03.660 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+20:24:03.674 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 2.063 seconds (JVM running for 2.57)
+20:24:13.908 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:24:13.910 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:24:13.914 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+20:24:13.942 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - =====获取的One服务地址为：http://localhost:3001
+20:24:13.943 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - =====获取的Two服务地址为：http://localhost:3002
+20:24:13.943 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - =====获取的Three服务地址为：http://localhost:3003
+20:24:20.206 [http-nio-3000-exec-2] INFO  h.demo.Controller.UserController - =====获取的One服务地址为：http://localhost:3001
+20:24:20.208 [http-nio-3000-exec-2] INFO  h.demo.Controller.UserController - =====获取的Two服务地址为：http://localhost:3002
+20:24:20.208 [http-nio-3000-exec-2] INFO  h.demo.Controller.UserController - =====获取的Three服务地址为：http://localhost:3003
+20:24:23.620 [http-nio-3000-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+20:24:24.011 [http-nio-3000-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+20:24:24.018 [http-nio-3000-exec-3] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+20:24:24.045 [http-nio-3000-exec-3] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+20:24:24.075 [http-nio-3000-exec-3] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password
+20:24:24.075 [http-nio-3000-exec-3] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, pwd
+20:24:24.079 [http-nio-3000-exec-3] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 2, Ander, pwd
+20:24:24.079 [http-nio-3000-exec-3] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, pwd2
+20:24:24.079 [http-nio-3000-exec-3] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 3
+20:24:26.207 [http-nio-3000-exec-4] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+20:24:26.210 [http-nio-3000-exec-4] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+20:24:26.213 [http-nio-3000-exec-4] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password
+20:24:26.215 [http-nio-3000-exec-4] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, pwd
+20:24:26.217 [http-nio-3000-exec-4] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 2, Ander, pwd
+20:24:26.217 [http-nio-3000-exec-4] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, pwd2
+20:24:26.217 [http-nio-3000-exec-4] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 3
+20:24:26.744 [http-nio-3000-exec-5] DEBUG h.demo.Dao.UserMapper.FindByUname - ==>  Preparing: SELECT * FROM user WHERE u_username like '%Ander%' 
+20:24:26.746 [http-nio-3000-exec-5] DEBUG h.demo.Dao.UserMapper.FindByUname - ==> Parameters: 
+20:24:26.752 [http-nio-3000-exec-5] TRACE h.demo.Dao.UserMapper.FindByUname - <==    Columns: u_id, u_username, u_password
+20:24:26.755 [http-nio-3000-exec-5] TRACE h.demo.Dao.UserMapper.FindByUname - <==        Row: 2, Ander, pwd
+20:24:26.756 [http-nio-3000-exec-5] DEBUG h.demo.Dao.UserMapper.FindByUname - <==      Total: 1
+20:24:34.175 [http-nio-3000-exec-6] DEBUG h.demo.Dao.UserMapper.FindByUname - ==>  Preparing: SELECT * FROM user WHERE u_username like '%Ander%' 
+20:24:34.179 [http-nio-3000-exec-6] DEBUG h.demo.Dao.UserMapper.FindByUname - ==> Parameters: 
+20:24:34.183 [http-nio-3000-exec-6] TRACE h.demo.Dao.UserMapper.FindByUname - <==    Columns: u_id, u_username, u_password
+20:24:34.184 [http-nio-3000-exec-6] TRACE h.demo.Dao.UserMapper.FindByUname - <==        Row: 2, Ander, pwd
+20:24:34.187 [http-nio-3000-exec-6] DEBUG h.demo.Dao.UserMapper.FindByUname - <==      Total: 1
+20:24:35.538 [http-nio-3000-exec-7] INFO  h.demo.Controller.UserController - =====获取的One服务地址为：http://localhost:3001
+20:24:35.539 [http-nio-3000-exec-7] INFO  h.demo.Controller.UserController - =====获取的Two服务地址为：http://localhost:3002
+20:24:35.539 [http-nio-3000-exec-7] INFO  h.demo.Controller.UserController - =====获取的Three服务地址为：http://localhost:3003
+20:24:36.625 [http-nio-3000-exec-8] INFO  h.demo.Controller.UserController - =====获取的One服务地址为：http://localhost:3001
+20:24:36.626 [http-nio-3000-exec-8] INFO  h.demo.Controller.UserController - =====获取的Two服务地址为：http://localhost:3002
+20:24:36.626 [http-nio-3000-exec-8] INFO  h.demo.Controller.UserController - =====获取的Three服务地址为：http://localhost:3003
+20:30:00.127 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+20:30:00.149 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.
+20:30:08.193 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 96040 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+20:30:08.194 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+20:30:09.185 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+20:30:09.191 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+20:30:09.191 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:30:09.191 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+20:30:09.294 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:30:09.295 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1061 ms
+20:30:09.941 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+20:30:09.955 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+20:30:09.966 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 2.142 seconds (JVM running for 2.664)
+20:30:13.384 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:30:13.388 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:30:13.393 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+20:30:13.465 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - =====获取的One服务地址为：http://localhost:3001
+20:30:13.470 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - =====获取的Two服务地址为：http://localhost:3002
+20:30:13.471 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - =====获取的Three服务地址为：http://localhost:3003
+20:36:08.936 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 96227 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+20:36:08.937 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+20:36:09.893 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+20:36:09.899 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+20:36:09.899 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:36:09.899 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+20:36:10.021 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:36:10.021 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1046 ms
+20:36:10.674 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+20:36:10.689 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+20:36:10.703 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 2.142 seconds (JVM running for 2.686)
+20:36:12.878 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:36:12.879 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:36:12.881 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+20:36:12.930 [http-nio-3000-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "hanhan"]
+20:37:35.380 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 96272 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+20:37:35.382 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+20:37:36.336 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+20:37:36.342 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+20:37:36.342 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:37:36.342 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+20:37:36.442 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:37:36.442 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1024 ms
+20:37:37.071 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+20:37:37.085 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+20:37:37.096 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 2.078 seconds (JVM running for 2.599)
+20:37:37.602 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:37:37.603 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:37:37.605 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+20:37:37.653 [http-nio-3000-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "2262328655"]
+20:37:45.529 [http-nio-3000-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "2262328655"]
+20:38:15.639 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 96298 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+20:38:15.640 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+20:38:16.616 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+20:38:16.622 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+20:38:16.622 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:38:16.622 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+20:38:16.721 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:38:16.721 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1041 ms
+20:38:17.351 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+20:38:17.365 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+20:38:17.380 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 2.102 seconds (JVM running for 2.621)
+20:38:20.453 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:38:20.454 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:38:20.456 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+20:38:20.503 [http-nio-3000-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "2262328655"]
+20:39:15.340 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 96328 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+20:39:15.342 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+20:39:16.328 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+20:39:16.334 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+20:39:16.334 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:39:16.334 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+20:39:16.431 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:39:16.431 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1049 ms
+20:39:17.190 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+20:39:17.238 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+20:39:17.274 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 2.286 seconds (JVM running for 2.807)
+20:39:19.104 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:39:19.105 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:39:19.106 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+20:39:19.136 [http-nio-3000-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "2262328655"]
+20:39:41.210 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 96338 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+20:39:41.212 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+20:39:42.228 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+20:39:42.234 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+20:39:42.235 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:39:42.235 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+20:39:42.340 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:39:42.340 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1080 ms
+20:39:42.997 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+20:39:43.011 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+20:39:43.025 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 2.329 seconds (JVM running for 2.892)
+20:39:46.090 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:39:46.091 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:39:46.093 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+20:39:46.139 [http-nio-3000-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "2262328655"]
+20:40:34.208 [http-nio-3000-exec-2] INFO  h.demo.Controller.UserController - ===== 获取到的ID为105
+20:40:49.848 [http-nio-3000-exec-3] INFO  h.demo.Controller.UserController - ===== 获取到的ID为105
+20:40:57.686 [http-nio-3000-exec-4] INFO  h.demo.Controller.UserController - ===== 获取到的ID为2000000000
+20:43:30.783 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 96439 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+20:43:30.786 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+20:43:31.753 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+20:43:31.758 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+20:43:31.759 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:43:31.759 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+20:43:31.861 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:43:31.861 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1039 ms
+20:43:32.480 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+20:43:32.494 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+20:43:32.507 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 2.078 seconds (JVM running for 2.608)
+20:43:33.686 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:43:33.689 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:43:33.691 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+20:43:33.734 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - ===== 进入的用户为hanhan
+20:46:54.800 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 96536 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+20:46:54.802 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+20:46:55.752 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+20:46:55.758 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+20:46:55.758 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:46:55.758 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+20:46:55.860 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:46:55.860 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1021 ms
+20:46:56.477 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+20:46:56.490 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+20:46:56.501 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 2.049 seconds (JVM running for 2.563)
+20:46:57.688 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:46:57.689 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:46:57.691 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+20:46:57.730 [http-nio-3000-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+20:47:05.004 [http-nio-3000-exec-2] INFO  h.demo.Controller.UserController - ===== 进入的用户为hanhan
+20:48:28.278 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 96587 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+20:48:28.279 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+20:48:29.224 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+20:48:29.230 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+20:48:29.230 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:48:29.231 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+20:48:29.330 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:48:29.331 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1014 ms
+20:48:29.945 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+20:48:29.959 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+20:48:29.971 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 2.047 seconds (JVM running for 2.562)
+20:48:31.182 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:48:31.185 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:48:31.187 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+20:48:31.236 [http-nio-3000-exec-1] INFO  h.demo.Controller.UserController - ===== 进入的用户为hanhan
+20:48:35.483 [http-nio-3000-exec-2] INFO  h.demo.Controller.UserController - ===== 进入的用户为null
+20:49:28.367 [http-nio-3000-exec-3] INFO  h.demo.Controller.UserController - ===== 进入的用户为hanhan
+21:24:04.634 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 97661 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+21:24:04.636 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+21:24:05.911 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+21:24:05.917 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+21:24:05.917 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:24:05.918 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+21:24:06.053 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:24:06.054 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1378 ms
+21:24:07.081 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'linkDiscoverers' defined in class path resource [org/springframework/hateoas/config/HateoasConfiguration.class]: Unsatisfied dependency expressed through method 'linkDiscoverers' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.plugin.core.PluginRegistry<org.springframework.hateoas.client.LinkDiscoverer, org.springframework.http.MediaType>' available: expected single matching bean but found 15: modelBuilderPluginRegistry,modelPropertyBuilderPluginRegistry,typeNameProviderPluginRegistry,documentationPluginRegistry,apiListingBuilderPluginRegistry,operationBuilderPluginRegistry,parameterBuilderPluginRegistry,expandedParameterBuilderPluginRegistry,resourceGroupingStrategyRegistry,operationModelsProviderPluginRegistry,defaultsProviderPluginRegistry,pathDecoratorRegistry,relProviderPluginRegistry,linkDiscovererRegistry,entityLinksPluginRegistry
+21:24:07.087 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+21:24:07.100 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+21:24:07.110 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method linkDiscoverers in org.springframework.hateoas.config.HateoasConfiguration required a single bean, but 15 were found:
+	- modelBuilderPluginRegistry: defined in null
+	- modelPropertyBuilderPluginRegistry: defined in null
+	- typeNameProviderPluginRegistry: defined in null
+	- documentationPluginRegistry: defined in null
+	- apiListingBuilderPluginRegistry: defined in null
+	- operationBuilderPluginRegistry: defined in null
+	- parameterBuilderPluginRegistry: defined in null
+	- expandedParameterBuilderPluginRegistry: defined in null
+	- resourceGroupingStrategyRegistry: defined in null
+	- operationModelsProviderPluginRegistry: defined in null
+	- defaultsProviderPluginRegistry: defined in null
+	- pathDecoratorRegistry: defined in null
+	- relProviderPluginRegistry: defined by method 'relProviderPluginRegistry' in class path resource [org/springframework/hateoas/config/HateoasConfiguration.class]
+	- linkDiscovererRegistry: defined in null
+	- entityLinksPluginRegistry: defined by method 'entityLinksPluginRegistry' in class path resource [org/springframework/hateoas/config/WebMvcEntityLinksConfiguration.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+21:26:41.936 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 97782 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+21:26:41.938 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+21:26:42.983 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+21:26:42.988 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+21:26:42.989 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:26:42.989 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+21:26:43.095 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:26:43.095 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1120 ms
+21:26:43.740 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'linkDiscoverers' defined in class path resource [org/springframework/hateoas/config/HateoasConfiguration.class]: Unsatisfied dependency expressed through method 'linkDiscoverers' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.plugin.core.PluginRegistry<org.springframework.hateoas.client.LinkDiscoverer, org.springframework.http.MediaType>' available: expected single matching bean but found 3: relProviderPluginRegistry,linkDiscovererRegistry,entityLinksPluginRegistry
+21:26:43.747 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+21:26:43.758 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+21:26:43.767 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method linkDiscoverers in org.springframework.hateoas.config.HateoasConfiguration required a single bean, but 3 were found:
+	- relProviderPluginRegistry: defined by method 'relProviderPluginRegistry' in class path resource [org/springframework/hateoas/config/HateoasConfiguration.class]
+	- linkDiscovererRegistry: defined in null
+	- entityLinksPluginRegistry: defined by method 'entityLinksPluginRegistry' in class path resource [org/springframework/hateoas/config/WebMvcEntityLinksConfiguration.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+21:27:20.798 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 97806 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+21:27:20.800 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+21:27:21.744 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+21:27:21.750 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+21:27:21.750 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:27:21.750 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+21:27:21.853 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:27:21.853 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1012 ms
+21:27:22.473 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+21:27:22.496 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+21:27:22.515 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 2.075 seconds (JVM running for 2.612)
+21:27:35.845 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:27:35.846 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:27:35.854 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+21:27:40.804 [http-nio-3000-exec-2] INFO  h.demo.Controller.UserController - ===== 进入的用户为null

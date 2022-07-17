@@ -1,0 +1,1536 @@
+00:35:30.354 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=29m23s562ms).
+01:57:35.731 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1h22m5s378ms).
+03:36:11.717 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1h38m35s986ms).
+04:59:47.080 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1h23m35s363ms).
+06:22:56.773 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1h23m9s693ms).
+06:41:10.646 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=18m13s872ms).
+06:59:17.597 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=18m6s951ms).
+07:54:20.152 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=55m2s556ms).
+07:55:41.998 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1m21s846ms).
+07:56:55.736 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1m13s738ms).
+08:14:57.934 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=18m2s197ms).
+08:49:27.244 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=33m59s306ms).
+09:05:25.512 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=15m28s257ms).
+10:42:36.506 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1h37m10s994ms).
+11:34:15.494 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=51m38s989ms).
+11:52:13.911 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=16m28s407ms).
+12:30:53.849 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=38m39s937ms).
+13:05:13.773 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=4m49s818ms).
+13:54:59.456 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=9m15s297ms).
+15:23:11.613 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+15:23:11.643 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.
+16:52:58.854 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hanhan.demo.SpringBootDemoApplicationTests], using SpringBootContextLoader
+16:52:58.859 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [hanhan.demo.SpringBootDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:52:58.860 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hanhan.demo.SpringBootDemoApplicationTests]: SpringBootDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:52:58.997 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hanhan.demo.SpringBootDemoApplication for test class hanhan.demo.SpringBootDemoApplicationTests
+16:52:59.139 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+16:52:59.153 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7de62196, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@163370c2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@51bf5add, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7905a0b8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@35a3d49f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@389b0789, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13d9cbf5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@478db956, org.springframework.test.context.event.EventPublishingTestExecutionListener@6ca18a14, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@c667f46, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@51bd8b5c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7b50df34, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1b410b60, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2462cb01, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@19b843ba]
+16:52:59.658 [main] INFO  h.d.SpringBootDemoApplicationTests - Starting SpringBootDemoApplicationTests using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 24974 (started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+16:52:59.660 [main] INFO  h.d.SpringBootDemoApplicationTests - The following 1 profile is active: "dev"
+16:53:01.064 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:53:01.067 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:53:01.098 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+16:53:08.578 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.211.130:9092, 192.168.211.130:9093, 192.168.211.130:9094]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-mentugroup-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = mentugroup
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+16:53:08.939 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.1
+16:53:08.941 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8e30984f43e64d8b
+16:53:08.941 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1654678388933
+16:53:08.950 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Subscribed to topic(s): test
+16:53:09.696 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+16:53:10.432 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+16:53:10.458 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+16:53:10.529 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+16:53:10.579 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+16:53:10.579 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+16:53:10.692 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+16:53:10.694 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+16:53:10.697 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+16:53:10.698 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+16:53:10.701 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+16:53:10.710 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+16:53:10.712 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+16:53:10.714 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+16:53:10.717 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+16:53:10.717 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+16:53:10.719 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+16:53:10.722 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+16:53:10.725 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+16:53:10.726 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 4
+16:53:10.749 [main] INFO  h.d.SpringBootDemoApplicationTests - Started SpringBootDemoApplicationTests in 11.554 seconds (JVM running for 12.891)
+16:53:11.173 [main] DEBUG hanhan.demo.Dao.UserMapper.AddUser - ==>  Preparing: INSERT user(u_username, u_password) VALUES (?, ?) 
+16:53:11.175 [main] DEBUG hanhan.demo.Dao.UserMapper.AddUser - ==> Parameters: hanhan2(String), password(String)
+16:53:11.182 [main] DEBUG hanhan.demo.Dao.UserMapper.AddUser - <==    Updates: 1
+16:53:11.276 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Resetting generation due to: consumer pro-actively leaving the group
+16:53:11.276 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Request joining group due to: consumer pro-actively leaving the group
+16:53:11.276 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Unsubscribed all topics or patterns and assigned partitions
+16:53:11.278 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Resetting generation due to: consumer pro-actively leaving the group
+16:53:11.278 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Request joining group due to: consumer pro-actively leaving the group
+16:53:11.281 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+16:53:11.281 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+16:53:11.281 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+16:53:11.286 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-mentugroup-1 unregistered
+16:53:11.288 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - mentugroup: Consumer stopped
+16:53:11.331 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+16:53:11.346 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.
+16:53:15.289 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 25002 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+16:53:15.290 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+16:53:16.207 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:53:16.209 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:53:16.233 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+16:53:17.024 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+16:53:17.029 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+16:53:17.030 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:53:17.030 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+16:53:17.218 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:53:17.218 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1881 ms
+16:53:19.155 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.211.130:9092, 192.168.211.130:9093, 192.168.211.130:9094]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-mentugroup-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = mentugroup
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+16:53:19.202 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.1
+16:53:19.203 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8e30984f43e64d8b
+16:53:19.204 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1654678399200
+16:53:19.206 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Subscribed to topic(s): test
+16:53:19.214 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+16:53:19.235 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+16:53:19.707 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+16:53:20.046 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+16:53:20.054 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+16:53:20.075 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+16:53:20.085 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+16:53:20.085 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+16:53:20.116 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+16:53:20.117 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+16:53:20.118 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+16:53:20.118 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+16:53:20.119 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+16:53:20.123 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+16:53:20.123 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+16:53:20.123 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+16:53:20.124 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+16:53:20.125 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+16:53:20.125 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+16:53:20.125 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+16:53:20.126 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+16:53:20.126 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 8, hanhan2, password, null
+16:53:20.127 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 5
+16:53:20.135 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 5.655 seconds (JVM running for 6.314)
+16:53:25.038 [http-nio-3000-exec-1] INFO  h.demo.listener.MyRequestListener - session id为：null, request url为：http://localhost:3000/send/topic/love
+16:53:25.053 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:53:25.053 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:53:25.059 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+16:53:25.077 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：send，在该方法执行之前执行====
+16:53:25.102 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+16:53:25.103 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: send，属于hanhan.demo.Controller.SendController包
+16:53:25.103 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/send/topic/love，ip地址为：0:0:0:0:0:0:0:1
+16:53:25.118 [http-nio-3000-exec-1] INFO  o.a.k.c.producer.ProducerConfig - Idempotence will be disabled because retries is set to 0.
+16:53:25.118 [http-nio-3000-exec-1] INFO  o.a.k.c.producer.ProducerConfig - Idempotence will be disabled because acks is set to 1, not set to 'all'.
+16:53:25.119 [http-nio-3000-exec-1] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [192.168.211.130:9092, 192.168.211.130:9093, 192.168.211.130:9094]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+16:53:25.138 [http-nio-3000-exec-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.1
+16:53:25.139 [http-nio-3000-exec-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8e30984f43e64d8b
+16:53:25.139 [http-nio-3000-exec-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1654678405138
+16:53:30.762 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+16:53:36.804 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+16:53:39.852 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+16:53:45.667 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+16:53:49.756 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+16:53:55.938 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+16:54:07.369 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+16:54:12.733 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+16:54:24.922 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+16:54:25.203 [http-nio-3000-exec-1] ERROR o.s.k.s.LoggingProducerListener - Exception thrown when sending a message with key='null' and payload='love' to topic topic:
+org.apache.kafka.common.errors.TimeoutException: Topic topic not present in metadata after 60000 ms.
+16:54:25.206 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+16:54:25.208 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 方法send已经执行完
+16:54:25.230 [http-nio-3000-exec-1] ERROR h.demo.Util.GlobalExceptionHandler - 系统异常：
+org.springframework.kafka.KafkaException: Send failed; nested exception is org.apache.kafka.common.errors.TimeoutException: Topic topic not present in metadata after 60000 ms.
+	at org.springframework.kafka.core.KafkaTemplate.doSend(KafkaTemplate.java:660)
+	at org.springframework.kafka.core.KafkaTemplate.send(KafkaTemplate.java:403)
+	at hanhan.demo.Controller.SendController.send(SendController.java:22)
+	at hanhan.demo.Controller.SendController$$FastClassBySpringCGLIB$$90108559.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at hanhan.demo.Controller.SendController$$EnhancerBySpringCGLIB$$b669c50e.send(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.kafka.common.errors.TimeoutException: Topic topic not present in metadata after 60000 ms.
+16:54:25.300 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+16:54:25.315 [http-nio-3000-exec-1] INFO  h.demo.listener.MyRequestListener - request域中保存的name值为：hanhan
+16:54:30.463 [http-nio-3000-exec-2] INFO  h.demo.listener.MyRequestListener - session id为：null, request url为：http://localhost:3000/send/test/love
+16:54:30.475 [http-nio-3000-exec-2] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：send，在该方法执行之前执行====
+16:54:30.479 [http-nio-3000-exec-2] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+16:54:30.479 [http-nio-3000-exec-2] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: send，属于hanhan.demo.Controller.SendController包
+16:54:30.479 [http-nio-3000-exec-2] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/send/test/love，ip地址为：0:0:0:0:0:0:0:1
+16:54:34.932 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+16:54:47.898 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+16:54:51.471 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+16:55:12.851 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+16:55:26.847 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+16:55:30.484 [http-nio-3000-exec-2] ERROR o.s.k.s.LoggingProducerListener - Exception thrown when sending a message with key='null' and payload='love' to topic test:
+org.apache.kafka.common.errors.TimeoutException: Topic test not present in metadata after 60000 ms.
+16:55:30.488 [http-nio-3000-exec-2] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+16:55:30.488 [http-nio-3000-exec-2] INFO  hanhan.demo.Aop.LogAspectHandler - 方法send已经执行完
+16:55:30.499 [http-nio-3000-exec-2] ERROR h.demo.Util.GlobalExceptionHandler - 系统异常：
+org.springframework.kafka.KafkaException: Send failed; nested exception is org.apache.kafka.common.errors.TimeoutException: Topic test not present in metadata after 60000 ms.
+	at org.springframework.kafka.core.KafkaTemplate.doSend(KafkaTemplate.java:660)
+	at org.springframework.kafka.core.KafkaTemplate.send(KafkaTemplate.java:403)
+	at hanhan.demo.Controller.SendController.send(SendController.java:22)
+	at hanhan.demo.Controller.SendController$$FastClassBySpringCGLIB$$90108559.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at hanhan.demo.Controller.SendController$$EnhancerBySpringCGLIB$$b669c50e.send(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.kafka.common.errors.TimeoutException: Topic test not present in metadata after 60000 ms.
+16:55:30.508 [http-nio-3000-exec-2] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+16:55:30.508 [http-nio-3000-exec-2] INFO  h.demo.listener.MyRequestListener - request域中保存的name值为：hanhan
+16:55:39.951 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Resetting generation due to: consumer pro-actively leaving the group
+16:55:39.953 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Request joining group due to: consumer pro-actively leaving the group
+16:55:39.953 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Unsubscribed all topics or patterns and assigned partitions
+16:55:39.955 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Resetting generation due to: consumer pro-actively leaving the group
+16:55:39.956 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Request joining group due to: consumer pro-actively leaving the group
+16:55:39.958 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+16:55:39.958 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+16:55:39.959 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+16:55:39.966 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-mentugroup-1 unregistered
+16:55:39.968 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - mentugroup: Consumer stopped
+16:55:40.012 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+16:55:40.072 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.
+16:55:40.074 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+16:55:40.082 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+16:55:40.083 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+16:55:40.083 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+16:55:40.084 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+16:55:49.271 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hanhan.demo.SpringBootDemoApplicationTests], using SpringBootContextLoader
+16:55:49.277 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [hanhan.demo.SpringBootDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:55:49.278 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hanhan.demo.SpringBootDemoApplicationTests]: SpringBootDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:55:49.437 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hanhan.demo.SpringBootDemoApplication for test class hanhan.demo.SpringBootDemoApplicationTests
+16:55:49.578 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+16:55:49.594 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7de62196, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@163370c2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@51bf5add, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7905a0b8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@35a3d49f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@389b0789, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13d9cbf5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@478db956, org.springframework.test.context.event.EventPublishingTestExecutionListener@6ca18a14, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@c667f46, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@51bd8b5c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7b50df34, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1b410b60, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2462cb01, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@19b843ba]
+16:55:50.104 [main] INFO  h.d.SpringBootDemoApplicationTests - Starting SpringBootDemoApplicationTests using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 25058 (started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+16:55:50.109 [main] INFO  h.d.SpringBootDemoApplicationTests - The following 1 profile is active: "dev"
+16:55:51.491 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:55:51.494 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:55:51.527 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+16:55:58.958 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.211.130:9092, 192.168.211.130:9093, 192.168.211.130:9094]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-mentugroup-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = mentugroup
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+16:55:59.319 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.1
+16:55:59.321 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8e30984f43e64d8b
+16:55:59.321 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1654678559312
+16:55:59.332 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Subscribed to topic(s): test
+16:56:00.068 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+16:56:00.768 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+16:56:00.796 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+16:56:00.872 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+16:56:00.967 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+16:56:00.968 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+16:56:01.085 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+16:56:01.087 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+16:56:01.089 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+16:56:01.090 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+16:56:01.094 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+16:56:01.100 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+16:56:01.102 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+16:56:01.103 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+16:56:01.106 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+16:56:01.106 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+16:56:01.107 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+16:56:01.107 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+16:56:01.108 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+16:56:01.109 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 8, hanhan2, password, null
+16:56:01.110 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 5
+16:56:01.131 [main] INFO  h.d.SpringBootDemoApplicationTests - Started SpringBootDemoApplicationTests in 11.493 seconds (JVM running for 13.046)
+16:56:01.537 [main] DEBUG hanhan.demo.Dao.UserMapper.AddUser - ==>  Preparing: INSERT user(u_username, u_password) VALUES (?, ?) 
+16:56:01.538 [main] DEBUG hanhan.demo.Dao.UserMapper.AddUser - ==> Parameters: hanhan2(String), password(String)
+16:56:01.541 [main] DEBUG hanhan.demo.Dao.UserMapper.AddUser - <==    Updates: 1
+16:56:01.615 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Resetting generation due to: consumer pro-actively leaving the group
+16:56:01.616 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Request joining group due to: consumer pro-actively leaving the group
+16:56:01.616 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Unsubscribed all topics or patterns and assigned partitions
+16:56:01.617 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Resetting generation due to: consumer pro-actively leaving the group
+16:56:01.617 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Request joining group due to: consumer pro-actively leaving the group
+16:56:01.619 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+16:56:01.620 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+16:56:01.620 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+16:56:01.625 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-mentugroup-1 unregistered
+16:56:01.626 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - mentugroup: Consumer stopped
+16:56:01.664 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+16:56:01.683 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.
+16:56:05.273 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 25075 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+16:56:05.274 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+16:56:06.198 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:56:06.200 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:56:06.224 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+16:56:07.025 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+16:56:07.031 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+16:56:07.031 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:56:07.032 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+16:56:07.231 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:56:07.231 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1916 ms
+16:56:09.055 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.211.130:9092, 192.168.211.130:9093, 192.168.211.130:9094]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-mentugroup-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = mentugroup
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+16:56:09.095 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.1
+16:56:09.096 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8e30984f43e64d8b
+16:56:09.096 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1654678569093
+16:56:09.099 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Subscribed to topic(s): test
+16:56:09.107 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+16:56:09.127 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+16:56:09.634 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+16:56:09.933 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+16:56:09.941 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+16:56:09.956 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+16:56:09.967 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+16:56:09.967 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+16:56:09.998 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+16:56:09.999 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+16:56:10.000 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+16:56:10.001 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+16:56:10.001 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+16:56:10.004 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+16:56:10.004 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+16:56:10.005 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+16:56:10.006 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+16:56:10.006 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+16:56:10.006 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+16:56:10.007 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+16:56:10.007 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+16:56:10.007 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 8, hanhan2, password, null
+16:56:10.008 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 9, hanhan2, password, null
+16:56:10.008 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 6
+16:56:10.016 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 5.399 seconds (JVM running for 5.989)
+16:56:13.773 [http-nio-3000-exec-1] INFO  h.demo.listener.MyRequestListener - session id为：null, request url为：http://localhost:3000/send/test/love
+16:56:13.789 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:56:13.789 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:56:13.794 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+16:56:13.811 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：send，在该方法执行之前执行====
+16:56:13.842 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+16:56:13.844 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: send，属于hanhan.demo.Controller.SendController包
+16:56:13.844 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/send/test/love，ip地址为：0:0:0:0:0:0:0:1
+16:56:13.857 [http-nio-3000-exec-1] INFO  o.a.k.c.producer.ProducerConfig - Idempotence will be disabled because retries is set to 0.
+16:56:13.858 [http-nio-3000-exec-1] INFO  o.a.k.c.producer.ProducerConfig - Idempotence will be disabled because acks is set to 1, not set to 'all'.
+16:56:13.858 [http-nio-3000-exec-1] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [192.168.211.130:9092, 192.168.211.130:9093, 192.168.211.130:9094]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+16:56:13.878 [http-nio-3000-exec-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.1
+16:56:13.879 [http-nio-3000-exec-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8e30984f43e64d8b
+16:56:13.879 [http-nio-3000-exec-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1654678573878
+16:56:20.753 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+16:56:25.170 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+16:56:31.218 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+16:56:35.112 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+16:56:42.455 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+16:56:45.595 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+16:57:03.839 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+16:57:05.978 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+16:57:13.929 [http-nio-3000-exec-1] ERROR o.s.k.s.LoggingProducerListener - Exception thrown when sending a message with key='null' and payload='love' to topic test:
+org.apache.kafka.common.errors.TimeoutException: Topic test not present in metadata after 60000 ms.
+16:57:13.936 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+16:57:13.936 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 方法send已经执行完
+16:57:13.962 [http-nio-3000-exec-1] ERROR h.demo.Util.GlobalExceptionHandler - 系统异常：
+org.springframework.kafka.KafkaException: Send failed; nested exception is org.apache.kafka.common.errors.TimeoutException: Topic test not present in metadata after 60000 ms.
+	at org.springframework.kafka.core.KafkaTemplate.doSend(KafkaTemplate.java:660)
+	at org.springframework.kafka.core.KafkaTemplate.send(KafkaTemplate.java:403)
+	at hanhan.demo.Controller.SendController.send(SendController.java:22)
+	at hanhan.demo.Controller.SendController$$FastClassBySpringCGLIB$$90108559.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at hanhan.demo.Controller.SendController$$EnhancerBySpringCGLIB$$43c74441.send(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.kafka.common.errors.TimeoutException: Topic test not present in metadata after 60000 ms.
+16:57:14.035 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+16:57:14.046 [http-nio-3000-exec-1] INFO  h.demo.listener.MyRequestListener - request域中保存的name值为：hanhan
+16:57:24.461 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+16:57:24.494 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+16:57:45.247 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+16:57:45.393 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+16:58:12.476 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+16:58:16.570 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+16:58:44.501 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+16:58:44.791 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+16:59:05.605 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Resetting generation due to: consumer pro-actively leaving the group
+16:59:05.606 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Request joining group due to: consumer pro-actively leaving the group
+16:59:05.607 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Unsubscribed all topics or patterns and assigned partitions
+16:59:05.608 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Resetting generation due to: consumer pro-actively leaving the group
+16:59:05.609 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-mentugroup-1, groupId=mentugroup] Request joining group due to: consumer pro-actively leaving the group
+16:59:05.610 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+16:59:05.611 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+16:59:05.611 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+16:59:05.618 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-mentugroup-1 unregistered
+16:59:05.619 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - mentugroup: Consumer stopped
+16:59:05.673 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+16:59:05.700 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.
+16:59:05.701 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+16:59:05.707 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+16:59:05.707 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+16:59:05.707 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+16:59:05.708 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+16:59:14.766 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hanhan.demo.SpringBootDemoApplicationTests], using SpringBootContextLoader
+16:59:14.771 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [hanhan.demo.SpringBootDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:59:14.774 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hanhan.demo.SpringBootDemoApplicationTests]: SpringBootDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:59:14.903 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hanhan.demo.SpringBootDemoApplication for test class hanhan.demo.SpringBootDemoApplicationTests
+16:59:15.038 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+16:59:15.052 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7de62196, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@163370c2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@51bf5add, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7905a0b8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@35a3d49f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@389b0789, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13d9cbf5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@478db956, org.springframework.test.context.event.EventPublishingTestExecutionListener@6ca18a14, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@c667f46, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@51bd8b5c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7b50df34, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1b410b60, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2462cb01, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@19b843ba]
+16:59:15.556 [main] INFO  h.d.SpringBootDemoApplicationTests - Starting SpringBootDemoApplicationTests using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 25139 (started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+16:59:15.559 [main] INFO  h.d.SpringBootDemoApplicationTests - The following 1 profile is active: "dev"
+16:59:16.921 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:59:16.924 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:59:16.958 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+16:59:23.950 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.211.130:9092, 192.168.211.130:9093, 192.168.211.130:9094]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-testGroup-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = testGroup
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+16:59:24.321 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.1
+16:59:24.323 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8e30984f43e64d8b
+16:59:24.324 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1654678764314
+16:59:24.333 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Subscribed to topic(s): test
+16:59:25.119 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+16:59:25.774 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+16:59:25.803 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+16:59:25.876 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+16:59:25.920 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+16:59:25.921 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+16:59:26.030 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+16:59:26.032 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+16:59:26.033 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+16:59:26.034 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+16:59:26.039 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+16:59:26.046 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+16:59:26.048 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+16:59:26.048 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+16:59:26.050 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+16:59:26.050 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+16:59:26.051 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+16:59:26.051 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+16:59:26.053 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+16:59:26.055 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 8, hanhan2, password, null
+16:59:26.056 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 9, hanhan2, password, null
+16:59:26.056 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 6
+16:59:26.089 [main] INFO  h.d.SpringBootDemoApplicationTests - Started SpringBootDemoApplicationTests in 10.996 seconds (JVM running for 12.263)
+16:59:26.506 [main] DEBUG hanhan.demo.Dao.UserMapper.AddUser - ==>  Preparing: INSERT user(u_username, u_password) VALUES (?, ?) 
+16:59:26.507 [main] DEBUG hanhan.demo.Dao.UserMapper.AddUser - ==> Parameters: hanhan2(String), password(String)
+16:59:26.509 [main] DEBUG hanhan.demo.Dao.UserMapper.AddUser - <==    Updates: 1
+16:59:26.594 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Resetting generation due to: consumer pro-actively leaving the group
+16:59:26.595 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Request joining group due to: consumer pro-actively leaving the group
+16:59:26.595 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Unsubscribed all topics or patterns and assigned partitions
+16:59:26.596 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Resetting generation due to: consumer pro-actively leaving the group
+16:59:26.597 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Request joining group due to: consumer pro-actively leaving the group
+16:59:26.599 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+16:59:26.600 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+16:59:26.600 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+16:59:26.605 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-testGroup-1 unregistered
+16:59:26.612 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - testGroup: Consumer stopped
+16:59:26.652 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+16:59:26.669 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.
+16:59:29.906 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 25171 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+16:59:29.907 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+16:59:30.842 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:59:30.843 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:59:30.867 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+16:59:31.651 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+16:59:31.656 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+16:59:31.657 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:59:31.657 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+16:59:31.850 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:59:31.850 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1901 ms
+16:59:33.619 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.211.130:9092, 192.168.211.130:9093, 192.168.211.130:9094]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-testGroup-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = testGroup
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+16:59:33.659 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.1
+16:59:33.661 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8e30984f43e64d8b
+16:59:33.661 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1654678773659
+16:59:33.664 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Subscribed to topic(s): test
+16:59:33.673 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+16:59:33.698 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+16:59:34.190 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+16:59:34.482 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+16:59:34.489 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+16:59:34.503 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+16:59:34.517 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+16:59:34.517 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+16:59:34.546 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+16:59:34.546 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+16:59:34.547 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+16:59:34.548 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+16:59:34.549 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+16:59:34.551 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+16:59:34.552 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+16:59:34.552 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+16:59:34.554 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+16:59:34.554 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+16:59:34.555 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+16:59:34.555 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+16:59:34.555 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+16:59:34.555 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 8, hanhan2, password, null
+16:59:34.556 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 9, hanhan2, password, null
+16:59:34.556 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 10, hanhan2, password, null
+16:59:34.557 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 7
+16:59:34.564 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 5.073 seconds (JVM running for 5.691)
+16:59:39.111 [http-nio-3000-exec-1] INFO  h.demo.listener.MyRequestListener - session id为：null, request url为：http://localhost:3000/send/test/love
+16:59:39.120 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:59:39.121 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:59:39.126 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+16:59:39.144 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：send，在该方法执行之前执行====
+16:59:39.173 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+16:59:39.173 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: send，属于hanhan.demo.Controller.SendController包
+16:59:39.174 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/send/test/love，ip地址为：0:0:0:0:0:0:0:1
+16:59:39.192 [http-nio-3000-exec-1] INFO  o.a.k.c.producer.ProducerConfig - Idempotence will be disabled because retries is set to 0.
+16:59:39.193 [http-nio-3000-exec-1] INFO  o.a.k.c.producer.ProducerConfig - Idempotence will be disabled because acks is set to 1, not set to 'all'.
+16:59:39.194 [http-nio-3000-exec-1] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [192.168.211.130:9092, 192.168.211.130:9093, 192.168.211.130:9094]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+16:59:39.222 [http-nio-3000-exec-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.1
+16:59:39.222 [http-nio-3000-exec-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8e30984f43e64d8b
+16:59:39.222 [http-nio-3000-exec-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1654678779221
+16:59:41.803 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+16:59:50.961 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+16:59:53.734 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+17:00:02.426 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+17:00:04.672 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+17:00:10.865 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+17:00:28.309 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+17:00:30.429 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+17:00:39.257 [http-nio-3000-exec-1] ERROR o.s.k.s.LoggingProducerListener - Exception thrown when sending a message with key='null' and payload='love' to topic test:
+org.apache.kafka.common.errors.TimeoutException: Topic test not present in metadata after 60000 ms.
+17:00:39.263 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+17:00:39.264 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 方法send已经执行完
+17:00:39.287 [http-nio-3000-exec-1] ERROR h.demo.Util.GlobalExceptionHandler - 系统异常：
+org.springframework.kafka.KafkaException: Send failed; nested exception is org.apache.kafka.common.errors.TimeoutException: Topic test not present in metadata after 60000 ms.
+	at org.springframework.kafka.core.KafkaTemplate.doSend(KafkaTemplate.java:660)
+	at org.springframework.kafka.core.KafkaTemplate.send(KafkaTemplate.java:403)
+	at hanhan.demo.Controller.SendController.send(SendController.java:22)
+	at hanhan.demo.Controller.SendController$$FastClassBySpringCGLIB$$90108559.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at hanhan.demo.Controller.SendController$$EnhancerBySpringCGLIB$$b669c50e.send(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.kafka.common.errors.TimeoutException: Topic test not present in metadata after 60000 ms.
+17:00:39.359 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+17:00:39.363 [http-nio-3000-exec-1] INFO  h.demo.listener.MyRequestListener - request域中保存的name值为：hanhan
+17:00:49.804 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+17:00:50.302 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+17:01:10.460 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+17:01:11.763 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+17:01:37.668 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+17:01:43.233 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+17:02:01.912 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+17:02:16.077 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+17:02:36.879 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+17:02:44.337 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+17:03:04.945 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+17:03:09.994 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+17:03:31.746 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+17:03:35.377 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+17:03:58.590 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Bootstrap broker 192.168.211.130:9094 (id: -3 rack: null) disconnected
+17:03:59.663 [kafka-producer-network-thread | producer-1] WARN  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.211.130:9092 (id: -1 rack: null) disconnected
+17:04:24.718 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Bootstrap broker 192.168.211.130:9093 (id: -2 rack: null) disconnected
+17:04:27.291 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Resetting generation due to: consumer pro-actively leaving the group
+17:04:27.291 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Request joining group due to: consumer pro-actively leaving the group
+17:04:27.291 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Unsubscribed all topics or patterns and assigned partitions
+17:04:27.294 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Resetting generation due to: consumer pro-actively leaving the group
+17:04:27.294 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-testGroup-1, groupId=testGroup] Request joining group due to: consumer pro-actively leaving the group
+17:04:27.295 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+17:04:27.295 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+17:04:27.295 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+17:04:27.300 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-testGroup-1 unregistered
+17:04:27.300 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - testGroup: Consumer stopped
+17:04:27.353 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+17:04:27.387 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.
+17:04:27.389 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+17:04:27.398 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+17:04:27.399 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+17:04:27.399 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+17:04:27.399 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+17:04:36.724 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hanhan.demo.SpringBootDemoApplicationTests], using SpringBootContextLoader
+17:04:36.728 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [hanhan.demo.SpringBootDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:04:36.729 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hanhan.demo.SpringBootDemoApplicationTests]: SpringBootDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:04:36.861 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hanhan.demo.SpringBootDemoApplication for test class hanhan.demo.SpringBootDemoApplicationTests
+17:04:36.992 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:04:37.005 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7de62196, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@163370c2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@51bf5add, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7905a0b8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@35a3d49f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@389b0789, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13d9cbf5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@478db956, org.springframework.test.context.event.EventPublishingTestExecutionListener@6ca18a14, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@c667f46, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@51bd8b5c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7b50df34, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1b410b60, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2462cb01, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@19b843ba]
+17:04:37.512 [main] INFO  h.d.SpringBootDemoApplicationTests - Starting SpringBootDemoApplicationTests using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 25250 (started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+17:04:37.515 [main] INFO  h.d.SpringBootDemoApplicationTests - The following 1 profile is active: "dev"
+17:04:38.883 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:04:38.886 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:04:38.916 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+17:06:17.875 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+17:06:18.568 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+17:06:18.594 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+17:06:18.620 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+17:06:18.675 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+17:06:18.675 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+17:06:18.799 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+17:06:18.801 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+17:06:18.803 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+17:06:18.803 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+17:06:18.806 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+17:06:18.814 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+17:06:18.817 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+17:06:18.817 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+17:06:18.818 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+17:06:18.819 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+17:06:18.819 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+17:06:18.820 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+17:06:18.821 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+17:06:18.823 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 8, hanhan2, password, null
+17:06:18.823 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 9, hanhan2, password, null
+17:06:18.823 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 10, hanhan2, password, null
+17:06:18.824 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 7
+17:06:18.857 [main] INFO  h.d.SpringBootDemoApplicationTests - Started SpringBootDemoApplicationTests in 11.034 seconds (JVM running for 12.333)
+17:06:19.271 [main] DEBUG hanhan.demo.Dao.UserMapper.AddUser - ==>  Preparing: INSERT user(u_username, u_password) VALUES (?, ?) 
+17:06:19.275 [main] DEBUG hanhan.demo.Dao.UserMapper.AddUser - ==> Parameters: hanhan2(String), password(String)
+17:06:19.278 [main] DEBUG hanhan.demo.Dao.UserMapper.AddUser - <==    Updates: 1
+17:06:19.444 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+17:06:19.470 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.
+17:06:22.774 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 25288 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+17:06:22.776 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+17:06:23.656 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:06:23.658 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:06:23.679 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+17:06:24.435 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+17:06:24.440 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+17:06:24.440 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:06:24.441 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+17:06:24.641 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:06:24.642 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1827 ms
+17:06:26.393 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+17:06:26.410 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+17:06:26.668 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+17:06:26.940 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+17:06:26.945 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+17:06:26.979 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+17:06:26.991 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+17:06:26.991 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+17:06:27.019 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+17:06:27.020 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+17:06:27.021 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+17:06:27.021 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+17:06:27.022 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+17:06:27.025 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+17:06:27.025 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+17:06:27.025 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+17:06:27.026 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+17:06:27.026 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+17:06:27.026 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+17:06:27.027 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+17:06:27.027 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+17:06:27.028 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 8, hanhan2, password, null
+17:06:27.028 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 9, hanhan2, password, null
+17:06:27.029 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 10, hanhan2, password, null
+17:06:27.029 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 11, hanhan2, password, null
+17:06:27.029 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 8
+17:06:27.036 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 4.626 seconds (JVM running for 5.234)
+17:07:42.610 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1m15s559ms).
+18:19:00.553 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1h10m47s927ms).
+19:14:41.650 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=55m41s102ms).
+21:15:37.973 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=17m55s691ms).
+21:20:15.106 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=4m37s138ms).
+22:09:25.417 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=27m10s55ms).
+22:33:30.268 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=5m34s591ms).
+23:29:03.286 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=16m2s667ms).
+23:54:28.225 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=23m20s451ms).

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="hanhan.demo.Dao.BankCardMapper">
+    <resultMap type="hanhan.demo.Entity.BankCard" id="bankCardMap">
+        <id column="b_id" property="bId"/>
+        <result column="b_code" property="bCode"/>
+        <result column="b_password" property="bPassword"/>
+        <result column="b_balance" property="bBalance"/>
+        <!-- 一对一 -->
+        <association column="u_id" property="user" select="hanhan.demo.Dao.UserMapper.FindById" javaType="hanhan.demo.Entity.User"/>
+    </resultMap>
+
+    <select id="FindByCode" resultMap="bankCardMap">
+        SELECT * FROM bankcard WHERE b_code = #{code}
+    </select>
+
+    <resultMap type="hanhan.demo.Entity.BankCard" id="bankCardResultMap">
+        <id column="b_id" property="bId"/>
+        <result column="b_code" property="bCode"/>
+        <result column="b_password" property="bPassword"/>
+        <result column="b_balance" property="bBalance"/>
+    </resultMap>
+
+    <select id="FindByUserId" parameterType="int" resultMap="bankCardResultMap">
+        SELECT * FROM bankcard WHERE u_id = #{userId}
+    </select>
+
+
+</mapper>
+

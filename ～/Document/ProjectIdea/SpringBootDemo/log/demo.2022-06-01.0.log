@@ -1,0 +1,9 @@
+01:03:44.325 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=17m59s299ms).
+02:27:30.779 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1h23m46s508ms).
+03:36:13.497 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1h8m42s715ms).
+04:58:35.070 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1h22m21s576ms).
+06:21:12.639 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1h22m37s569ms).
+07:42:38.207 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1h21m25s568ms).
+08:18:53.541 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=36m15s332ms).
+08:19:04.926 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+08:19:05.004 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.

@@ -1,0 +1,30 @@
+server:
+  port: 3000 # Tomcat端口号
+
+spring: # springboot配置
+  datasource: # 定义数据源
+    name: hanhan
+    url: jdbc:mysql://localhost:3306/exam?characterEncoding=utf8
+    username: root
+    password: password
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  thymeleaf:
+    cache: false #关闭Thymeleaf缓存
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml # 通配mapper文件
+  type-aliases-package: hanhan.demo.Entity # 给所有的对象类取别名，简化在xml中写全名如hanhan.demo.Entity.User=User
+  configuration:
+    map-underscore-to-camel-case: true # 开启驼峰命名法与下划线的自动匹配机制
+    #该值默认就是false，所以可以不配，如果配置成了true，懒加载就会失效
+    aggressive-lazy-loading: false
+
+logging:
+  config: src/main/resources/logback.xml # slf4j的配置文件位置
+  level:
+    hanhan.demo.Dao: trace # 包下的所有mapper日志输出级别为trace，会将操作数据库的sql打印出来

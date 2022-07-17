@@ -1,0 +1,835 @@
+09:36:07.310 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 11172 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+09:36:07.312 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+09:36:08.304 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:36:08.306 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+09:36:08.336 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+09:36:09.121 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+09:36:09.126 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+09:36:09.126 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:36:09.126 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+09:36:09.365 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:36:09.365 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1998 ms
+09:36:11.019 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+09:36:11.039 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+09:36:11.345 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+09:36:11.707 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+09:36:11.713 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+09:36:11.727 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+09:36:11.756 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+09:36:11.757 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+09:36:11.787 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+09:36:11.788 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+09:36:11.793 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+09:36:11.793 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+09:36:11.794 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+09:36:11.797 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+09:36:11.797 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+09:36:11.797 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+09:36:11.798 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+09:36:11.798 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+09:36:11.798 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+09:36:11.799 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+09:36:11.799 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+09:36:11.800 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 4
+09:36:11.809 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 4.889 seconds (JVM running for 5.6)
+09:36:22.734 [http-nio-3000-exec-1] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/
+09:36:22.749 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:36:22.751 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:36:22.762 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+09:36:22.831 [http-nio-3000-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: org.springframework.web.servlet.resource.ResourceHttpRequestHandler cannot be cast to org.springframework.web.method.HandlerMethod] with root cause
+java.lang.ClassCastException: org.springframework.web.servlet.resource.ResourceHttpRequestHandler cannot be cast to org.springframework.web.method.HandlerMethod
+	at hanhan.demo.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:19)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1062)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+09:36:22.844 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：errorHtml，在该方法执行之前执行====
+09:36:22.876 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:36:23.197 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:36:23.198 [http-nio-3000-exec-1] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:36:23.291 [http-nio-3000-exec-2] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/favicon.ico
+09:36:23.295 [http-nio-3000-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: org.springframework.web.servlet.resource.ResourceHttpRequestHandler cannot be cast to org.springframework.web.method.HandlerMethod] with root cause
+java.lang.ClassCastException: org.springframework.web.servlet.resource.ResourceHttpRequestHandler cannot be cast to org.springframework.web.method.HandlerMethod
+	at hanhan.demo.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:19)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1062)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+09:36:23.297 [http-nio-3000-exec-2] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：error，在该方法执行之前执行====
+09:36:23.362 [http-nio-3000-exec-2] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:36:23.362 [http-nio-3000-exec-2] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:36:23.363 [http-nio-3000-exec-2] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:36:30.237 [http-nio-3000-exec-3] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/
+09:36:30.273 [http-nio-3000-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: org.springframework.web.servlet.resource.ResourceHttpRequestHandler cannot be cast to org.springframework.web.method.HandlerMethod] with root cause
+java.lang.ClassCastException: org.springframework.web.servlet.resource.ResourceHttpRequestHandler cannot be cast to org.springframework.web.method.HandlerMethod
+	at hanhan.demo.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:19)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1062)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+09:36:30.281 [http-nio-3000-exec-3] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：errorHtml，在该方法执行之前执行====
+09:36:30.296 [http-nio-3000-exec-3] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:36:30.318 [http-nio-3000-exec-3] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:36:30.319 [http-nio-3000-exec-3] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:36:30.323 [http-nio-3000-exec-4] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/favicon.ico
+09:36:30.330 [http-nio-3000-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: org.springframework.web.servlet.resource.ResourceHttpRequestHandler cannot be cast to org.springframework.web.method.HandlerMethod] with root cause
+java.lang.ClassCastException: org.springframework.web.servlet.resource.ResourceHttpRequestHandler cannot be cast to org.springframework.web.method.HandlerMethod
+	at hanhan.demo.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:19)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1062)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+09:36:30.332 [http-nio-3000-exec-4] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：error，在该方法执行之前执行====
+09:36:30.337 [http-nio-3000-exec-4] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:36:30.337 [http-nio-3000-exec-4] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:36:30.337 [http-nio-3000-exec-4] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:36:30.416 [http-nio-3000-exec-5] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/user/getjson1
+09:36:30.420 [http-nio-3000-exec-5] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：GetJson1，在该方法执行之前执行====
+09:36:30.438 [http-nio-3000-exec-5] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+09:36:30.439 [http-nio-3000-exec-5] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: GetJson1，属于hanhan.demo.Controller.UserController包
+09:36:30.440 [http-nio-3000-exec-5] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/user/getjson1，ip地址为：0:0:0:0:0:0:0:1
+09:36:30.467 [http-nio-3000-exec-5] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+09:36:30.474 [http-nio-3000-exec-5] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+09:36:30.478 [http-nio-3000-exec-5] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+09:36:30.478 [http-nio-3000-exec-5] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+09:36:30.486 [http-nio-3000-exec-5] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+09:36:30.486 [http-nio-3000-exec-5] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+09:36:30.487 [http-nio-3000-exec-5] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+09:36:30.487 [http-nio-3000-exec-5] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+09:36:30.489 [http-nio-3000-exec-5] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+09:36:30.491 [http-nio-3000-exec-5] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+09:36:30.496 [http-nio-3000-exec-5] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+09:36:30.497 [http-nio-3000-exec-5] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+09:36:30.498 [http-nio-3000-exec-5] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+09:36:30.498 [http-nio-3000-exec-5] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+09:36:30.499 [http-nio-3000-exec-5] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+09:36:30.501 [http-nio-3000-exec-5] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+09:36:30.501 [http-nio-3000-exec-5] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+09:36:30.501 [http-nio-3000-exec-5] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 4
+09:36:30.502 [http-nio-3000-exec-5] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+09:36:30.502 [http-nio-3000-exec-5] INFO  hanhan.demo.Aop.LogAspectHandler - 方法GetJson1已经执行完
+09:36:30.563 [http-nio-3000-exec-5] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==>  Preparing: SELECT * FROM bankcard WHERE u_id = ? 
+09:36:30.565 [http-nio-3000-exec-5] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==> Parameters: 1(Integer)
+09:36:30.577 [http-nio-3000-exec-5] TRACE h.d.Dao.BankCardMapper.FindByUserId - <==    Columns: b_id, b_code, b_password, b_balance, u_id
+09:36:30.577 [http-nio-3000-exec-5] TRACE h.d.Dao.BankCardMapper.FindByUserId - <==        Row: 1, 1111, password, 0, 1
+09:36:30.579 [http-nio-3000-exec-5] TRACE h.d.Dao.BankCardMapper.FindByUserId - <==        Row: 3, 3333, password, 0, 1
+09:36:30.579 [http-nio-3000-exec-5] DEBUG h.d.Dao.BankCardMapper.FindByUserId - <==      Total: 2
+09:36:30.587 [http-nio-3000-exec-5] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==>  Preparing: SELECT * FROM bankcard WHERE u_id = ? 
+09:36:30.588 [http-nio-3000-exec-5] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==> Parameters: 3(Integer)
+09:36:30.589 [http-nio-3000-exec-5] TRACE h.d.Dao.BankCardMapper.FindByUserId - <==    Columns: b_id, b_code, b_password, b_balance, u_id
+09:36:30.589 [http-nio-3000-exec-5] TRACE h.d.Dao.BankCardMapper.FindByUserId - <==        Row: 2, 2222, password, 0, 3
+09:36:30.590 [http-nio-3000-exec-5] DEBUG h.d.Dao.BankCardMapper.FindByUserId - <==      Total: 1
+09:36:30.590 [http-nio-3000-exec-5] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==>  Preparing: SELECT * FROM bankcard WHERE u_id = ? 
+09:36:30.590 [http-nio-3000-exec-5] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==> Parameters: 5(Integer)
+09:36:30.591 [http-nio-3000-exec-5] DEBUG h.d.Dao.BankCardMapper.FindByUserId - <==      Total: 0
+09:36:30.592 [http-nio-3000-exec-5] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==>  Preparing: SELECT * FROM bankcard WHERE u_id = ? 
+09:36:30.592 [http-nio-3000-exec-5] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==> Parameters: 7(Integer)
+09:36:30.593 [http-nio-3000-exec-5] DEBUG h.d.Dao.BankCardMapper.FindByUserId - <==      Total: 0
+09:36:30.595 [http-nio-3000-exec-5] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:36:30.595 [http-nio-3000-exec-5] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:36:30.596 [http-nio-3000-exec-5] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:36:30.974 [http-nio-3000-exec-6] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/user
+09:36:30.980 [http-nio-3000-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: org.springframework.web.servlet.resource.ResourceHttpRequestHandler cannot be cast to org.springframework.web.method.HandlerMethod] with root cause
+java.lang.ClassCastException: org.springframework.web.servlet.resource.ResourceHttpRequestHandler cannot be cast to org.springframework.web.method.HandlerMethod
+	at hanhan.demo.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:19)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1062)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+09:36:30.981 [http-nio-3000-exec-6] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：errorHtml，在该方法执行之前执行====
+09:36:30.985 [http-nio-3000-exec-6] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:36:30.992 [http-nio-3000-exec-6] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:36:30.992 [http-nio-3000-exec-6] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:36:31.283 [http-nio-3000-exec-7] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/user/getjson1
+09:36:31.285 [http-nio-3000-exec-7] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：GetJson1，在该方法执行之前执行====
+09:36:31.286 [http-nio-3000-exec-7] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+09:36:31.286 [http-nio-3000-exec-7] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: GetJson1，属于hanhan.demo.Controller.UserController包
+09:36:31.286 [http-nio-3000-exec-7] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/user/getjson1，ip地址为：0:0:0:0:0:0:0:1
+09:36:31.292 [http-nio-3000-exec-7] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+09:36:31.293 [http-nio-3000-exec-7] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+09:36:31.295 [http-nio-3000-exec-7] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+09:36:31.296 [http-nio-3000-exec-7] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+09:36:31.303 [http-nio-3000-exec-7] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+09:36:31.304 [http-nio-3000-exec-7] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+09:36:31.305 [http-nio-3000-exec-7] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+09:36:31.305 [http-nio-3000-exec-7] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+09:36:31.308 [http-nio-3000-exec-7] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+09:36:31.309 [http-nio-3000-exec-7] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+09:36:31.310 [http-nio-3000-exec-7] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+09:36:31.311 [http-nio-3000-exec-7] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+09:36:31.312 [http-nio-3000-exec-7] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+09:36:31.313 [http-nio-3000-exec-7] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+09:36:31.313 [http-nio-3000-exec-7] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+09:36:31.314 [http-nio-3000-exec-7] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+09:36:31.316 [http-nio-3000-exec-7] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+09:36:31.318 [http-nio-3000-exec-7] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 4
+09:36:31.319 [http-nio-3000-exec-7] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+09:36:31.319 [http-nio-3000-exec-7] INFO  hanhan.demo.Aop.LogAspectHandler - 方法GetJson1已经执行完
+09:36:31.322 [http-nio-3000-exec-7] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==>  Preparing: SELECT * FROM bankcard WHERE u_id = ? 
+09:36:31.323 [http-nio-3000-exec-7] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==> Parameters: 1(Integer)
+09:36:31.324 [http-nio-3000-exec-7] TRACE h.d.Dao.BankCardMapper.FindByUserId - <==    Columns: b_id, b_code, b_password, b_balance, u_id
+09:36:31.326 [http-nio-3000-exec-7] TRACE h.d.Dao.BankCardMapper.FindByUserId - <==        Row: 1, 1111, password, 0, 1
+09:36:31.326 [http-nio-3000-exec-7] TRACE h.d.Dao.BankCardMapper.FindByUserId - <==        Row: 3, 3333, password, 0, 1
+09:36:31.326 [http-nio-3000-exec-7] DEBUG h.d.Dao.BankCardMapper.FindByUserId - <==      Total: 2
+09:36:31.327 [http-nio-3000-exec-7] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==>  Preparing: SELECT * FROM bankcard WHERE u_id = ? 
+09:36:31.328 [http-nio-3000-exec-7] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==> Parameters: 3(Integer)
+09:36:31.329 [http-nio-3000-exec-7] TRACE h.d.Dao.BankCardMapper.FindByUserId - <==    Columns: b_id, b_code, b_password, b_balance, u_id
+09:36:31.329 [http-nio-3000-exec-7] TRACE h.d.Dao.BankCardMapper.FindByUserId - <==        Row: 2, 2222, password, 0, 3
+09:36:31.329 [http-nio-3000-exec-7] DEBUG h.d.Dao.BankCardMapper.FindByUserId - <==      Total: 1
+09:36:31.329 [http-nio-3000-exec-7] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==>  Preparing: SELECT * FROM bankcard WHERE u_id = ? 
+09:36:31.330 [http-nio-3000-exec-7] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==> Parameters: 5(Integer)
+09:36:31.331 [http-nio-3000-exec-7] DEBUG h.d.Dao.BankCardMapper.FindByUserId - <==      Total: 0
+09:36:31.332 [http-nio-3000-exec-7] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==>  Preparing: SELECT * FROM bankcard WHERE u_id = ? 
+09:36:31.332 [http-nio-3000-exec-7] DEBUG h.d.Dao.BankCardMapper.FindByUserId - ==> Parameters: 7(Integer)
+09:36:31.333 [http-nio-3000-exec-7] DEBUG h.d.Dao.BankCardMapper.FindByUserId - <==      Total: 0
+09:36:31.334 [http-nio-3000-exec-7] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:36:31.334 [http-nio-3000-exec-7] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:36:31.334 [http-nio-3000-exec-7] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:36:33.215 [http-nio-3000-exec-8] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/user/request
+09:36:33.224 [http-nio-3000-exec-8] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：TestRequest，在该方法执行之前执行====
+09:36:33.227 [http-nio-3000-exec-8] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+09:36:33.228 [http-nio-3000-exec-8] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: TestRequest，属于hanhan.demo.Controller.UserController包
+09:36:33.228 [http-nio-3000-exec-8] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/user/request，ip地址为：0:0:0:0:0:0:0:1
+09:36:33.229 [http-nio-3000-exec-8] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+09:36:33.230 [http-nio-3000-exec-8] INFO  hanhan.demo.Aop.LogAspectHandler - 方法TestRequest已经执行完
+09:36:33.240 [http-nio-3000-exec-8] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:36:33.240 [http-nio-3000-exec-8] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:36:33.241 [http-nio-3000-exec-8] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:36:33.800 [http-nio-3000-exec-9] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/user/redis
+09:36:33.812 [http-nio-3000-exec-9] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：redis，在该方法执行之前执行====
+09:36:33.816 [http-nio-3000-exec-9] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+09:36:33.816 [http-nio-3000-exec-9] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: redis，属于hanhan.demo.Controller.UserController包
+09:36:33.816 [http-nio-3000-exec-9] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/user/redis，ip地址为：0:0:0:0:0:0:0:1
+09:36:34.086 [http-nio-3000-exec-9] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+09:36:34.088 [http-nio-3000-exec-9] INFO  hanhan.demo.Aop.LogAspectHandler - 方法redis已经执行完
+09:36:34.092 [http-nio-3000-exec-9] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:36:34.093 [http-nio-3000-exec-9] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:36:34.093 [http-nio-3000-exec-9] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:36:44.094 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+09:36:44.119 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.
+09:36:54.930 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 11199 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+09:36:54.932 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+09:36:55.868 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:36:55.870 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+09:36:55.898 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+09:36:56.729 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+09:36:56.736 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+09:36:56.736 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:36:56.736 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+09:36:56.940 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:36:56.940 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1963 ms
+09:36:58.603 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+09:36:58.619 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+09:36:58.917 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+09:36:59.217 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+09:36:59.221 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+09:36:59.235 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+09:36:59.246 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+09:36:59.246 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+09:36:59.275 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+09:36:59.276 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+09:36:59.278 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+09:36:59.278 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+09:36:59.279 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+09:36:59.282 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+09:36:59.282 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+09:36:59.282 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+09:36:59.283 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+09:36:59.283 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+09:36:59.284 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+09:36:59.284 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+09:36:59.285 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+09:36:59.285 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 4
+09:36:59.293 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 4.79 seconds (JVM running for 5.38)
+09:37:03.164 [http-nio-3000-exec-1] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/user/redis
+09:37:03.180 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:37:03.180 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:37:03.185 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+09:37:03.206 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：redis，在该方法执行之前执行====
+09:37:03.223 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+09:37:03.225 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: redis，属于hanhan.demo.Controller.UserController包
+09:37:03.225 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/user/redis，ip地址为：0:0:0:0:0:0:0:1
+09:37:03.557 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+09:37:03.559 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 方法redis已经执行完
+09:37:03.589 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:37:03.590 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:37:03.592 [http-nio-3000-exec-1] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:37:41.358 [http-nio-3000-exec-3] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/user/redis
+09:37:41.367 [http-nio-3000-exec-3] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：redis，在该方法执行之前执行====
+09:37:41.371 [http-nio-3000-exec-3] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+09:37:41.372 [http-nio-3000-exec-3] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: redis，属于hanhan.demo.Controller.UserController包
+09:37:41.372 [http-nio-3000-exec-3] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/user/redis，ip地址为：0:0:0:0:0:0:0:1
+09:37:41.385 [http-nio-3000-exec-3] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+09:37:41.386 [http-nio-3000-exec-3] INFO  hanhan.demo.Aop.LogAspectHandler - 方法redis已经执行完
+09:37:41.392 [http-nio-3000-exec-3] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:37:41.392 [http-nio-3000-exec-3] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:37:41.393 [http-nio-3000-exec-3] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:38:05.170 [lettuce-eventExecutorLoop-1-5] INFO  i.l.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /127.0.0.1:6379
+09:38:05.203 [lettuce-eventExecutorLoop-1-5] WARN  i.l.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+09:38:10.149 [http-nio-3000-exec-4] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/user/redis
+09:38:10.160 [http-nio-3000-exec-4] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：redis，在该方法执行之前执行====
+09:38:10.162 [http-nio-3000-exec-4] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+09:38:10.163 [http-nio-3000-exec-4] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: redis，属于hanhan.demo.Controller.UserController包
+09:38:10.164 [http-nio-3000-exec-4] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/user/redis，ip地址为：0:0:0:0:0:0:0:1
+09:38:14.259 [lettuce-eventExecutorLoop-1-5] INFO  i.l.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+09:38:14.266 [lettuce-nioEventLoop-4-6] WARN  i.l.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: /127.0.0.1:6379
+09:38:15.183 [http-nio-3000-exec-4] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+09:38:15.185 [http-nio-3000-exec-4] INFO  hanhan.demo.Aop.LogAspectHandler - 方法redis已经执行完
+09:38:15.235 [http-nio-3000-exec-4] ERROR h.demo.Util.GlobalExceptionHandler - 系统异常：
+org.springframework.dao.QueryTimeoutException: Redis command timed out; nested exception is io.lettuce.core.RedisCommandTimeoutException: Command timed out after 5 second(s)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:70)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:272)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.await(LettuceConnection.java:1063)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.lambda$doInvoke$4(LettuceConnection.java:920)
+	at org.springframework.data.redis.connection.lettuce.LettuceInvoker$Synchronizer.invoke(LettuceInvoker.java:673)
+	at org.springframework.data.redis.connection.lettuce.LettuceInvoker$DefaultSingleInvocationSpec.get(LettuceInvoker.java:589)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.set(LettuceStringCommands.java:123)
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.set(DefaultedRedisConnection.java:313)
+	at org.springframework.data.redis.connection.DefaultStringRedisConnection.set(DefaultStringRedisConnection.java:1102)
+	at org.springframework.data.redis.core.DefaultValueOperations$7.inRedis(DefaultValueOperations.java:309)
+	at org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:61)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:223)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:190)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:97)
+	at org.springframework.data.redis.core.DefaultValueOperations.set(DefaultValueOperations.java:305)
+	at hanhan.demo.Service.Impl.RedisService.setString(RedisService.java:15)
+	at hanhan.demo.Controller.UserController.redis(UserController.java:156)
+	at hanhan.demo.Controller.UserController$$FastClassBySpringCGLIB$$3e3969dc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at hanhan.demo.Controller.UserController$$EnhancerBySpringCGLIB$$a318e86a.redis(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: io.lettuce.core.RedisCommandTimeoutException: Command timed out after 5 second(s)
+	at io.lettuce.core.internal.ExceptionFactory.createTimeoutException(ExceptionFactory.java:59)
+	at io.lettuce.core.internal.Futures.awaitOrCancel(Futures.java:246)
+	at io.lettuce.core.LettuceFutures.awaitOrCancel(LettuceFutures.java:74)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.await(LettuceConnection.java:1061)
+	... 80 common frames omitted
+09:38:15.271 [http-nio-3000-exec-4] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:38:15.272 [http-nio-3000-exec-4] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:38:22.560 [lettuce-eventExecutorLoop-1-8] INFO  i.l.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+09:38:22.600 [lettuce-nioEventLoop-4-7] INFO  i.l.c.protocol.ReconnectionHandler - Reconnected to 127.0.0.1:6379
+09:38:26.505 [http-nio-3000-exec-5] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/user/redis
+09:38:26.510 [http-nio-3000-exec-5] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：redis，在该方法执行之前执行====
+09:38:26.511 [http-nio-3000-exec-5] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+09:38:26.511 [http-nio-3000-exec-5] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: redis，属于hanhan.demo.Controller.UserController包
+09:38:26.512 [http-nio-3000-exec-5] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/user/redis，ip地址为：0:0:0:0:0:0:0:1
+09:38:26.518 [http-nio-3000-exec-5] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+09:38:26.519 [http-nio-3000-exec-5] INFO  hanhan.demo.Aop.LogAspectHandler - 方法redis已经执行完
+09:38:26.527 [http-nio-3000-exec-5] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:38:26.527 [http-nio-3000-exec-5] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:38:26.527 [http-nio-3000-exec-5] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:39:04.378 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+09:39:04.402 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.
+09:39:15.956 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 11516 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+09:39:15.957 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+09:39:16.849 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:39:16.851 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+09:39:16.874 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+09:39:17.650 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+09:39:17.656 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+09:39:17.656 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:39:17.656 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+09:39:17.853 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:39:17.853 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1856 ms
+09:39:19.431 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+09:39:19.447 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+09:39:19.756 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+09:39:20.045 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+09:39:20.051 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+09:39:20.064 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+09:39:20.077 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+09:39:20.078 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+09:39:20.107 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+09:39:20.108 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+09:39:20.110 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+09:39:20.110 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+09:39:20.111 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+09:39:20.113 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+09:39:20.114 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+09:39:20.114 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+09:39:20.115 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+09:39:20.115 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+09:39:20.115 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+09:39:20.116 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+09:39:20.116 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+09:39:20.117 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 4
+09:39:20.124 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 4.631 seconds (JVM running for 5.204)
+09:39:23.709 [http-nio-3000-exec-1] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/user/redis
+09:39:23.731 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:39:23.731 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:39:23.736 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+09:39:23.750 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：redis，在该方法执行之前执行====
+09:39:23.762 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+09:39:23.765 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: redis，属于hanhan.demo.Controller.UserController包
+09:39:23.765 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/user/redis，ip地址为：0:0:0:0:0:0:0:1
+09:39:24.130 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+09:39:24.131 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 方法redis已经执行完
+09:39:24.169 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:39:24.169 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:39:24.172 [http-nio-3000-exec-1] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:39:25.705 [http-nio-3000-exec-2] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/user/redis
+09:39:25.710 [http-nio-3000-exec-2] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：redis，在该方法执行之前执行====
+09:39:25.712 [http-nio-3000-exec-2] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+09:39:25.712 [http-nio-3000-exec-2] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: redis，属于hanhan.demo.Controller.UserController包
+09:39:25.712 [http-nio-3000-exec-2] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/user/redis，ip地址为：0:0:0:0:0:0:0:1
+09:39:25.716 [http-nio-3000-exec-2] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+09:39:25.717 [http-nio-3000-exec-2] INFO  hanhan.demo.Aop.LogAspectHandler - 方法redis已经执行完
+09:39:25.722 [http-nio-3000-exec-2] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:39:25.722 [http-nio-3000-exec-2] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:39:25.723 [http-nio-3000-exec-2] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:39:39.016 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+09:39:39.038 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.
+09:39:49.885 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 11534 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+09:39:49.887 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+09:39:51.079 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:39:51.082 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+09:39:51.126 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+09:39:51.978 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+09:39:51.985 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+09:39:51.985 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:39:51.986 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+09:39:52.182 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:39:52.182 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2250 ms
+09:39:54.371 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+09:39:54.388 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+09:39:54.657 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+09:39:54.946 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+09:39:54.951 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+09:39:54.975 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+09:39:54.987 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+09:39:54.987 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+09:39:55.017 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+09:39:55.018 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+09:39:55.019 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+09:39:55.020 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+09:39:55.021 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+09:39:55.023 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+09:39:55.024 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+09:39:55.024 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+09:39:55.025 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+09:39:55.025 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+09:39:55.026 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+09:39:55.026 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+09:39:55.026 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+09:39:55.027 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 4
+09:39:55.034 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 5.652 seconds (JVM running for 6.235)
+09:39:57.563 [http-nio-3000-exec-1] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/user/redis
+09:39:57.580 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:39:57.581 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:39:57.585 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+09:39:57.607 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：redis，在该方法执行之前执行====
+09:39:57.626 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+09:39:57.628 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: redis，属于hanhan.demo.Controller.UserController包
+09:39:57.629 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/user/redis，ip地址为：0:0:0:0:0:0:0:1
+09:39:57.960 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+09:39:57.962 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 方法redis已经执行完
+09:39:58.006 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:39:58.006 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:39:58.010 [http-nio-3000-exec-1] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:41:44.042 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+09:41:44.076 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.
+09:41:54.762 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 11591 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+09:41:54.763 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+09:41:55.660 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:41:55.662 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+09:41:55.688 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+09:41:56.430 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+09:41:56.437 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+09:41:56.437 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:41:56.437 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+09:41:56.618 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:41:56.618 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1815 ms
+09:41:58.191 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+09:41:58.209 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+09:41:58.516 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+09:41:58.810 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+09:41:58.815 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+09:41:58.828 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+09:41:58.839 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+09:41:58.840 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+09:41:58.869 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+09:41:58.870 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+09:41:58.872 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+09:41:58.872 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+09:41:58.873 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+09:41:58.875 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+09:41:58.876 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+09:41:58.876 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+09:41:58.877 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+09:41:58.877 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+09:41:58.877 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+09:41:58.877 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+09:41:58.878 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+09:41:58.878 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 4
+09:41:58.886 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 4.528 seconds (JVM running for 5.078)
+09:42:13.290 [http-nio-3000-exec-1] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/user/redis
+09:42:13.312 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:42:13.313 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:42:13.319 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+09:42:13.340 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：redis，在该方法执行之前执行====
+09:42:13.359 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+09:42:13.359 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: redis，属于hanhan.demo.Controller.UserController包
+09:42:13.360 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/user/redis，ip地址为：0:0:0:0:0:0:0:1
+09:42:13.750 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+09:42:13.751 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 方法redis已经执行完
+09:42:13.775 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+09:42:13.776 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+09:42:13.778 [http-nio-3000-exec-1] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+09:46:01.703 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+09:46:01.724 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.
+10:45:14.343 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 12420 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+10:45:14.345 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+10:45:15.246 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+10:45:15.248 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+10:45:15.275 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+10:45:16.035 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+10:45:16.041 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+10:45:16.042 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:45:16.042 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+10:45:16.242 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:45:16.243 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1849 ms
+10:45:17.884 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+10:45:17.903 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+10:45:18.198 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+10:45:18.515 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+10:45:18.520 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+10:45:18.534 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+10:45:18.554 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+10:45:18.554 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+10:45:18.583 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+10:45:18.584 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+10:45:18.586 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+10:45:18.587 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+10:45:18.588 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+10:45:18.590 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+10:45:18.591 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+10:45:18.591 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+10:45:18.592 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+10:45:18.592 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+10:45:18.593 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+10:45:18.593 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+10:45:18.593 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+10:45:18.594 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 4
+10:45:18.601 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 4.781 seconds (JVM running for 5.442)
+10:45:20.331 [http-nio-3000-exec-1] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/user/request
+10:45:20.351 [http-nio-3000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:45:20.353 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:45:20.357 [http-nio-3000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+10:45:20.377 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：TestRequest，在该方法执行之前执行====
+10:45:20.392 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+10:45:20.393 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: TestRequest，属于hanhan.demo.Controller.UserController包
+10:45:20.393 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/user/request，ip地址为：0:0:0:0:0:0:0:1
+10:45:20.404 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+10:45:20.404 [http-nio-3000-exec-1] INFO  hanhan.demo.Aop.LogAspectHandler - 方法TestRequest已经执行完
+10:45:20.432 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+10:45:20.433 [http-nio-3000-exec-1] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+10:45:20.435 [http-nio-3000-exec-1] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+10:45:27.800 [http-nio-3000-exec-2] INFO  h.demo.listener.HanRequestListener - session id为：null, request url为：http://localhost:3000/user/redis
+10:45:27.806 [http-nio-3000-exec-2] INFO  h.demo.interceptor.LoginInterceptor - ====拦截到了方法：redis，在该方法执行之前执行====
+10:45:27.809 [http-nio-3000-exec-2] INFO  hanhan.demo.Aop.LogAspectHandler - =====进入TestBefore方法=====
+10:45:27.809 [http-nio-3000-exec-2] INFO  hanhan.demo.Aop.LogAspectHandler - 即将执行方法为: redis，属于hanhan.demo.Controller.UserController包
+10:45:27.810 [http-nio-3000-exec-2] INFO  hanhan.demo.Aop.LogAspectHandler - 用户请求的url为：http://localhost:3000/user/redis，ip地址为：0:0:0:0:0:0:0:1
+10:45:28.171 [http-nio-3000-exec-2] INFO  h.demo.Controller.UserController - ===== 缓存中存入username，值为hanhan
+10:45:28.173 [http-nio-3000-exec-2] INFO  hanhan.demo.Aop.LogAspectHandler - ====进入TestAfter方法====
+10:45:28.173 [http-nio-3000-exec-2] INFO  hanhan.demo.Aop.LogAspectHandler - 方法redis已经执行完
+10:45:28.177 [http-nio-3000-exec-2] INFO  h.demo.interceptor.LoginInterceptor - 执行完方法之后进执行(Controller方法调用之后)，但是此时还没进行视图渲染
+10:45:28.178 [http-nio-3000-exec-2] INFO  h.demo.interceptor.LoginInterceptor - 整个请求都处理完咯，DispatcherServlet也渲染了对应的视图咯，此时我可以做一些清理的工作了
+10:45:28.178 [http-nio-3000-exec-2] INFO  h.demo.listener.HanRequestListener - request域中保存的name值为：hanhan
+10:50:41.961 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown initiated...
+10:50:41.982 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Shutdown completed.
+10:50:52.486 [main] INFO  h.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication using Java 1.8.0_321 on hanhans-MacBook-Air.local with PID 12602 (/Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo/target/classes started by wuwenlong in /Users/wuwenlong/Documents/ProjectIdea/SpringBootDemo)
+10:50:52.488 [main] INFO  h.demo.SpringBootDemoApplication - The following 1 profile is active: "dev"
+10:50:53.368 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+10:50:53.370 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+10:50:53.393 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+10:50:54.143 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3000 (http)
+10:50:54.149 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3000"]
+10:50:54.150 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:50:54.150 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+10:50:54.341 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:50:54.341 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1812 ms
+10:50:55.936 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3000"]
+10:50:55.952 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 3000 (http) with context path ''
+10:50:56.249 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Starting...
+10:50:56.543 [main] INFO  com.zaxxer.hikari.HikariDataSource - hanhan - Start completed.
+10:50:56.548 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==>  Preparing: SELECT * FROM user 
+10:50:56.562 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - ==> Parameters: 
+10:50:56.572 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==    Columns: u_id, u_username, u_password, u_idcard
+10:50:56.573 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 1, hanhan, password, 111
+10:50:56.601 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+10:50:56.602 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 111(String)
+10:50:56.604 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+10:50:56.604 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 1, wwl, 111, 江信国际花园
+10:50:56.605 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+10:50:56.608 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 3, Ander, password, 222
+10:50:56.608 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====>  Preparing: SELECT * FROM idcard WHERE i_code = ? 
+10:50:56.608 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - ====> Parameters: 222(String)
+10:50:56.609 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====    Columns: i_id, i_name, i_code, i_address
+10:50:56.609 [main] TRACE h.demo.Dao.IdCardMapper.FindByCode - <====        Row: 2, ysy, 222, 阿吧阿吧
+10:50:56.610 [main] DEBUG h.demo.Dao.IdCardMapper.FindByCode - <====      Total: 1
+10:50:56.610 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 5, hanhan2, password, null
+10:50:56.611 [main] TRACE hanhan.demo.Dao.UserMapper.FindAll - <==        Row: 7, Ander2, password, null
+10:50:56.611 [main] DEBUG hanhan.demo.Dao.UserMapper.FindAll - <==      Total: 4
+10:50:56.618 [main] INFO  h.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 4.582 seconds (JVM running for 5.152)
+14:30:25.774 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1h39m58s373ms).
+15:56:06.436 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1h25m40s663ms).
+17:10:51.839 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1h4m45s354ms).
+18:01:06.077 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=50m14s238ms).
+18:31:30.555 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1m54s314ms).
+20:27:18.910 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=40m47s965ms).
+20:32:49.973 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=2m1s18ms).
+22:03:30.871 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=3m10s251ms).
+22:05:22.045 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=1m51s174ms).
+22:23:14.713 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=17m52s668ms).
+22:34:38.547 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=11m23s835ms).
+23:46:36.646 [hanhan housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - hanhan - Thread starvation or clock leap detected (housekeeper delta=22m27s811ms).

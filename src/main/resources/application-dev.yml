@@ -1,0 +1,65 @@
+server:
+  port: 3000 # Tomcat端口号
+
+spring: # springboot配置
+  datasource: # 定义数据源
+    name: hanhan
+    url: jdbc:mysql://localhost:3306/demo?characterEncoding=utf8
+    username: root
+    password: password
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  thymeleaf:
+    cache: false #关闭Thymeleaf缓存
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+  redis:
+    database: 5
+    host: 127.0.0.1 # 配置redis的主机地址，需要修改成自己的
+    port: 6379
+    password:
+    timeout: 5000
+    jedis:
+      pool:
+        # 连接池中的最大空闲连接，默认值是8
+        max-idle: 500
+        # 连接池中的最小空闲连接，默认值是0
+        min-idle: 50
+        # 如果赋值为-1，则表示不限制；如果pool已经分配了maxActive个jedis实例，则此时pool的状态为exhausted(耗尽)
+        max-active: 1000
+        # 等待可用连接的最大时间，单位毫秒，默认值为-1，表示永不超时。如果超过等待时间，则直接抛出JedisConnectionException
+        max-wait: 2000
+  kafka:
+    bootstrap-servers: 192.168.211.130:9092,192.168.211.130:9093,192.168.211.130:9094 # Kafka服务地址
+    producer: # producer 生产者
+      retries: 0 # 发送失败后的重试次数，0表示不重试
+      acks: 1 # 应答级别:多少个分区副本备份完成时向生产者发送ack确认(可选0、1、all/-1)
+      batch-size: 16384 # 批量大小
+      buffer-memory: 33554432 # 生产端缓冲区大小
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer # 向Kafka发送数据，key采用的序列化方式
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer # 向Kafka发送数据，数据采用的序列化方式
+    consumer: # consumer消费者
+      group-id: mentugroup # 默认的消费组ID(消费者组默认名字)
+      enable-auto-commit: true # 是否自动提交offset(每次消费数据后，需要提交数据的偏移量，这里true表示自动提交，false表示手动提交)
+      auto-commit-interval: 100  # 提交offset延时(接收到消息后多久提交offset)
+      # earliest:当各分区下有已提交的offset时，从提交的offset开始消费；无提交的offset时，从头开始消费
+      # latest:当各分区下有已提交的offset时，从提交的offset开始消费；无提交的offset时，消费新产生的该分区下的数据
+      # none:topic各分区都存在已提交的offset时，从offset后开始消费；只要有一个分区不存在已提交的offset，则抛出异常
+      auto-offset-reset: latest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer # 读Kafka数据，key采用的反序列化方式
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer # 读Kafka数据，数据采用的反序列化方式
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml # 通配mapper文件
+  type-aliases-package: hanhan.demo.Entity # 给所有的对象类取别名，简化在xml中写全名如hanhan.demo.Entity.User=User
+  configuration:
+    map-underscore-to-camel-case: true # 开启驼峰命名法与下划线的自动匹配机制
+    #该值默认就是false，所以可以不配，如果配置成了true，懒加载就会失效
+    aggressive-lazy-loading: false
+
+logging:
+  config: src/main/resources/logback.xml # slf4j的配置文件位置
+  level:
+    hanhan.demo.Dao: trace # 包下的所有mapper日志输出级别为trace，会将操作数据库的sql打印出来
